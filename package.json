@@ -1,0 +1,17 @@
+{
+  "name": "ma",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o app/static/css/ --recursive"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "muhlis",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
